@@ -76,6 +76,43 @@ export default function App() {
         <button onClick={() => valuestock()}>Find Value</button>
       </div>
       <h1>{statevalue}</h1>
+
+      <footer>
+        <p> © | 2021 | aashirwad01</p>
+        <ul className="footer-list">
+          <li>
+            <a className="links" href="https://github.com/aashirwad01">
+              <img
+                className="img-2"
+                src="https://img.icons8.com/material-two-tone/24/000000/github.png"
+                alt="github"
+              />
+            </a>
+          </li>
+
+          <li>
+            <a className="links" href="https://twitter.com/aashirwad_01">
+              <img
+                className="img-2"
+                src="https://img.icons8.com/material-sharp/24/000000/twitter.png"
+                alt="twitter"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              className="links"
+              href="https://www.linkedin.com/in/aashirwadkumar159/"
+            >
+              <img
+                className="img-2"
+                src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
