@@ -36,6 +36,8 @@ export default function App() {
             percent +
             "% ❤️"
         );
+      } else if (val === 0) {
+        statefuncvalue("No Pain No Gain ✨");
       } else if (val < 0) {
         statefuncvalue(
           "Ohh your stock is in Loss 😔 . Loss Value is " +
