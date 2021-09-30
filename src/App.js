@@ -12,6 +12,12 @@ export default function App() {
       statefuncvalue("Please enter all values.");
     } else if (isNaN(state3) || isNaN(state2) || isNaN(state1)) {
       statefuncvalue("Please enter numerical values.");
+    } else if (
+      parseInt(state3) <= 0 ||
+      parseInt(state2) <= 0 ||
+      parseInt(state1) <= 0
+    ) {
+      statefuncvalue("Please enter valid values.");
     } else {
       var val = (parseInt(state3) - parseInt(state1)) * parseInt(state2);
       var percent =
